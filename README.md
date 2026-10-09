@@ -2,7 +2,7 @@
 
 A machine learning project that predicts which telecom customers are likely to leave, ranks them by risk, and shows which factors drive churn. Includes a Streamlit web app for scoring individual customers.
 
-**Live demo:** `<add your Streamlit link here, or delete this line>`
+**Live demo:** https://telco-customer-churn-prediction-mkngadnpokxhb332hvwmcz.streamlit.app/
 
 <!-- IMAGE 1: main app screenshot (the full form with a prediction shown). Save as images/app.png -->
 ![App screenshot](images/app.png)
@@ -203,7 +203,7 @@ churn-project/
 
 ```bash
 # 1. Clone and enter the project
-git clone https://github.com/ibrahim-640<your-username>/churn-prediction.git
+git clone https://github.com/ibrahim-640/telco-customer-churn-prediction.git
 cd churn-prediction
 
 # 2. Create and activate a virtual environment
