@@ -5,7 +5,7 @@ A machine learning project that predicts which telecom customers are likely to l
 **Live demo:** `<add your Streamlit link here, or delete this line>`
 
 <!-- IMAGE 1: main app screenshot (the full form with a prediction shown). Save as images/app.png -->
-![App screenshot](churn-project/images/app.png)
+![App screenshot](images/app.png)
 
 ## Summary
 
@@ -52,7 +52,7 @@ Keeping an existing customer costs less than winning a new one. If a company can
 **The data is imbalanced.** About 3 customers stay for every 1 who leaves. A model that predicted "nobody leaves" would score 73% accuracy while catching zero churners, which is why accuracy alone is not used to judge the models.
 
 <!-- IMAGE 2: the "Churn distribution" chart from explore.py. Save as images/churn_distribution.png -->
-![Churn distribution](churn-project/images/churn_distribution.png)
+![Churn distribution](images/churn_distribution.png)
 
 **Churn falls sharply as tenure grows:**
 
@@ -64,14 +64,14 @@ Keeping an existing customer costs less than winning a new one. If a company can
 | 49-72 months | 9.5% |
 
 <!-- IMAGE 3: the "Tenure by churn" box plot. Save as images/tenure_by_churn.png -->
-![Tenure by churn](churn-project/images/tenure_by_churn.png)
+![Tenure by churn](images/tenure_by_churn.png)
 
 Customers who leave typically do so early: the median tenure of churners is about 10 months, versus about 38 months for customers who stayed.
 
 **Contract type matters a lot.** Month-to-month customers churn at roughly 43%, versus roughly 11% for one-year and 3% for two-year contracts. Nearly all churn comes from month-to-month customers.
 
 <!-- IMAGE 4: the "Churn by contract type" chart. Save as images/churn_by_contract.png -->
-![Churn by contract type](churn-project/images/churn_by_contract.png)
+![Churn by contract type](images/churn_by_contract.png)
 
 ## Approach
 
@@ -157,12 +157,12 @@ Logistic regression weights (positive pushes toward leaving, negative toward sta
 **Example: a high-risk customer** (1 month tenure, month-to-month, fiber optic, electronic check, no support or security add-ons):
 
 <!-- IMAGE 5: app screenshot showing the high-risk result. Save as images/app_high_risk.png -->
-![High-risk prediction](churn-project/images/app_high_risk.png)
+![High-risk prediction](images/app_high_risk.png)
 
 **Example: a low-risk customer** (60 months tenure, two-year contract, DSL, automatic payment, add-ons included):
 
 <!-- IMAGE 6: app screenshot showing the low-risk result. Save as images/app_low_risk.png -->
-![Low-risk prediction](churn-project/images/app_low_risk.png)
+![Low-risk prediction](images/app_low_risk.png)
 
 ## Limitations
 
